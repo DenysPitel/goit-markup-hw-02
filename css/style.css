@@ -1,4 +1,95 @@
 body {
-    color:#212121;
-    font-family: roboto;
+  font-family: 'roboto';
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header
+=================== */
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2em;
+  color: #2196f3;
+}
+
+.logo span {
+  color: #000000;
+}
+
+.nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+}
+
+.nav a:hover {
+  color: #2196f3;
+}
+
+.nav-item {
+  color: #212121;
+}
+
+.contacts {
+  color: #757575;
+}
+
+/* Button
+=================== */
+
+.work {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.work-but {
+  background: #f5f4fa;
+}
+
+.work-but:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/* Features
+=================== */
+
+.features-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.features-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9em;
+  color: #757575;
+}
+
+/* Footer
+=================== */
+
+.footer {
+  background: #2f303a;
+}
+
+.foot-add {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: #ffffff;
 }
